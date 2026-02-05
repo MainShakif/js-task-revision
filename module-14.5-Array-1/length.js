@@ -1,11 +1,11 @@
 const numbers = [10, 20, 30, 40, 50, 10, 20, 30, 40, 50, 10, 20, 30, 40, 50];
 console.log(numbers);
-console.log(numbers[-1]);
+console.log("negative index:", numbers[-1]); //
 
 /*---------------------------------------------
                 check length:
 ---------------------------------------*/
-// console.log(numbers.length);
+console.log(numbers.length);
 
 /*-------------------------------------------------- 
             check index value:
@@ -15,22 +15,22 @@ console.log(numbers[-1]);
 /*--------------------------------------------------------
  change index value and //?set in another variable:
  --------------------------------------------------------*/
-numbers[4] = 100;
-let fifth = numbers[4];
-console.log(fifth);
+// numbers[4] = 100;
+// let fifth = numbers[4];
+// console.log(fifth);
 
 /*-----------------------------------------------
                 1) Get value by index
 // -------------------------------------------*/
 //If you already know the index:
-let numbers = [10, 20, 30, 40, 50];
-console.log(numbers[2]); // 30
+// let numbers = [10, 20, 30, 40, 50];
+// console.log(numbers[2]); // 30
 
 /*
 ----------------------------------------------------------
-        2) Get index by value (using indexOf())
+        2) Get index number by value (using indexOf())
 ---------------------------------------------------------
 */
 //If you know the value and want its index:
-let numbers = [10, 20, 30, 40, 50];
-console.log(numbers.indexOf(30)); // 2
+// let numbers = [10, 20, 30, 40, 50];
+// console.log(numbers.indexOf(30)); // 2

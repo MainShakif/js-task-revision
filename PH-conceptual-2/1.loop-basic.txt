@@ -1,0 +1,7 @@
+
+
+// Loop: for loop, while loop, do while loop ********
+// important keyword for loop: break, continue ***
+
+// break: break the loop
+// continue: just skip a single iteration
