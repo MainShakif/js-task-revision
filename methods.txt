@@ -1,0 +1,5 @@
+#JavaScript-এ .includes() দুই জায়গায় ব্যবহার করা যায়:
+
+✅ 1) Array এর সাথে
+
+✅ 2) String এর সাথে

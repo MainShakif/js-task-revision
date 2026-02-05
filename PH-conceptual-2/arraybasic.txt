@@ -1,0 +1,14 @@
+//  primarily 2 types ->  data type
+// 1. primitive -> string, number, boolean, undefined, null
+// 2. non primitive or referencial -> array and object
+
+
+----------------------------------------------------------
+
+
+// Array: An array is a fundamental data structure that stores a collection of elements (like numbers or text) of the same type in a single variable, organized in a sequence and accessed by a numerical index, usually starting from zero
+
+
+// 0 based index
+// 0 - > 10, 1 -> 20, 2 -> 30, 3 -> 40, 4 - > 50
+let array = [10, 20, 30, 40, 50];
