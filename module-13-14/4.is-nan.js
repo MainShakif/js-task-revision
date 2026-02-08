@@ -1,7 +1,7 @@
 /*
 *Explanation About isNaN : isNaN Convert a string to an integer and give output to "true" or "false".
 
-* isNaN() শুধু তখন true দেয় যখন ভ্যালু NaN হয়.
+* isNaN() শুধু তখন true দেয় যখন ভ্যালু NaN হয় মানে ভ্যালু স্ট্রিং হলেই কেবল isNaN() true দেয়।
 
 উদাহরণ:
 
