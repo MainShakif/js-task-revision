@@ -1,7 +1,11 @@
 /*
 *Explanation About isNaN : isNaN Convert a string to an integer and give output to "true" or "false".
 
+<<<<<<< HEAD
 * isNaN() শুধু তখনই true দেয় যখন ভ্যালু NaN হয়।
+=======
+* isNaN() শুধু তখন true দেয় যখন ভ্যালু NaN হয় যখন ভ্যালু টা স্ট্রিং হয়।।
+>>>>>>> 4c0be28 (explanation about  isNaN.)
 
 উদাহরণ:
 
