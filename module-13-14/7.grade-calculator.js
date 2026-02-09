@@ -8,31 +8,45 @@
             C: 70-79
             D: 60-69
             E: 0-59
-            less than 59 : failed
+           
 
 */
 
-let mark = -Infinity;
-if (mark >= 90 && mark <= 100) {
+/*
+ * স্কোর (Score)	শর্ত (Condition)	ফলাফল (Output)
+
+      ?৮০ বা তার বেশি	mark >= 80	go for a lunch.
+      ৬০ থেকে ৭৯.৯৯...	mark >= 60 && mark < 80	good luck next time.
+      ?৪০ থেকে ৫৯.৯৯...	mark >= 40 && mark < 60	keep your friend's message unseen.
+      ৪০-এর নিচে	mark < 40	block your friend.
+
+ */
+
+let mark = 89.5;
+
+if (mark > 100 || mark < 0) {
+  console.log("Invalid Mark"); // ১০০ এর বেশি বা ০ এর কম হলে
+}
+// ?1st else if
+else if (mark >= 90) {
   console.log("A");
+} // ?2nd else if
+else if (mark >= 80) {
+  console.log("B"); // এখানে mark <= 89 চেক করার দরকার নেই, কারণ উপরের শর্ত মিথ্যা হলেই এখানে আসবে
 }
-//first else if
-else if (mark >= 80 && mark <= 89) {
-  console.log("B");
-}
-// else if 2
-else if (mark >= 70 && mark <= 79) {
+// ?3rd else if
+else if (mark >= 70) {
   console.log("C");
 }
-// else if 3
-else if (mark >= 60 && mark <= 69) {
+// ?4th else if
+else if (mark >= 60) {
   console.log("D");
 }
-// else if 4
-else if (mark >= 0 && mark <= 59) {
-  console.log("E");
+// ?5th else if
+else if (mark >= 33) {
+  console.log("E"); // 33 থেকে 59 এর জন্য
 }
-// else
+//
 else {
-  console.log("failed");
+  console.log("Failed"); // ৩৩ এর নিচে এবং ০ এর উপরে হলে ফেইল
 }
